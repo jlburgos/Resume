@@ -1,4 +1,4 @@
-PAPER=resume
+PAPER=resume.tex
 default:
 	pdflatex $(PAPER)
 clean:
