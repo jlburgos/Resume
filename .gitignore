@@ -1,1 +1,6 @@
+family
 *bib
+*.aux
+*.dvi
+*.log
+*.ps

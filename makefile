@@ -1,9 +1,5 @@
-PAPER=resume
+PAPER=resume.tex
 default:
-	latex $(PAPER)
-	latex $(PAPER)
-	dvips -t letter $(PAPER)
-	ps2pdf $(PAPER).ps
-	rm -f *.ps *.log *.blg *.bbl *.aux *.dvi *.toc
+	pdflatex $(PAPER)
 clean:
-	rm -f *pdf *.ps *.log *.blg *.bbl *.aux *.dvi *.toc *~
+	rm -f *.ps *.log *.blg *.bbl *.aux *.dvi *.toc *.synctex.gz
