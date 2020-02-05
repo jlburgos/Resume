@@ -4,3 +4,4 @@ family
 *.dvi
 *.log
 *.ps
+.vscode
