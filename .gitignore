@@ -1,6 +1,10 @@
-*bib
-*.aux
-*.dvi
-*.log
-*.ps
-.vscode
+# Ignore everything
+/*
+
+# Except these files
+!.gitignore
+!makefile
+!README.md
+!res.cls
+!resume.pdf
+!resume.tex
