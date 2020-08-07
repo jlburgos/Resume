@@ -1,5 +1,6 @@
 % LaTeX file for resume 
 % This file uses the resume document class (res.cls)
+
 \let\nofiles\relax
 \documentclass[8pt]{res} 
 
@@ -7,14 +8,14 @@
 %\nobibliography*
 
 \usepackage[a4paper,margin=1.00in]{geometry}
-\oddsidemargin = -0.3in % remove extra part of left margin
+\oddsidemargin = -0.4in % remove extra bit from left margin
 
-\setlength{\textheight}{9.0 in} % increase text height to fit on 1-page 
+\setlength{\textheight}{10.0 in} % increase text height to fit on 1-page 
 
 \begin{document} 
 
   \name{Juan Luis Burgos\\[12pt]}
-  \address{\bf \underline{Contact Info}\\juanlb1988@gmail.com\\(254)-449-6995}
+  \address{\bf juanlb1988@gmail.com \texttt{||} (254)-449-6995}
 
   \begin{resume}
 
@@ -36,63 +37,68 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \section{\underline{Relevant Experience}}
-    \vspace{-0.08in}	
+    \section{\underline{Relevant Experience}}\vspace{-5pt}
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-      \textbf{Staff Software Engineer} \>IBM Corporation (Tivoli Monitoring) \>August 2016 - Present\\ \>Durham, NC
-    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Primary Role: Lead Ruby on Rails developer on our backend endpoint that manages the creation, modification, and destruction of SaaS subscriptions and integration with other services.\\
-    Responsibilities include:\\
-    - Continued application development for backend services.\\
-    - Updating and maintaining of Apache, Haproxy, and Nginx servers in support of different products and teams.\\
-    - Working directly with devops teams for separate products in support of customer subscription maintenance and issue resolution.
+      \bf Staff Software Engineer \>\bf IBM Corporation \>\bf August 2016 - Present\\ \>\bf Durham, NC
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Worked with internation team to integrate data-analytics functionality into the IBM Cloud Pak for Multicloud Management performance monitoring product.
+      \item Designed and implemented a dockerized micro-service that manages user-defined configurations for data-analytics functionality.
+      \item Continuing development and support for multiple backend Ruby on Rails endpoints, maintenance for Apache and Haproxy servers, and inter-service integrations.
+      \item Continuing direct support of DevOps and Infrastructure teams for SaaS environment maintenance/upgrades and customer issue resolution.
+    \end{itemize}\vspace{-18pt}      % suppress blank line after tabbing
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-      \textbf{Backend Engineer} \>IBM Corporation (Tivoli Monitoring) \>July 2014 - August 2016\\ \>Durham, NC
-    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Primary Role: Ruby on Rails developer on our backend endpoint that manages the creation, modification, and destruction of SaaS subscriptions and integration with other services.\\
-    Responsibilities include:\\
-    - Ruby and bash script development for the Rails backend application.\\
-    - Supporting infrastructure team in the introduction of new API flows.\\
-    - Assisting APM SaaS Operations team during product releases.
+      \bf Backend Engineer \>\bf IBM Corporation \>\bf July 2014 - August 2016\\ \>\bf Durham, NC
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Lead Ruby on Rails developer on our backend endpoint that manages the creation, modification, and destruction of SaaS subscriptions and integration with other services.
+      \item Implemented backend scripts in Ruby, Perl, and Bash that supported E2E SaaS subscription lifecycle flows.
+      \item Implemented web interface providing users with monitoring agent, configuration package, and development tool download capability.
+      \item Supported infrastructure team in the introduction of new API flows.
+      \item Assisted APM SaaS Operations team during product releases.
+    \end{itemize}\vspace{-18pt}      % suppress blank line after tabbing
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-      \textbf{Software Engineer} \>IBM Corporation (Tivoli Monitoring) \>July 2013 - July 2014\\ \>Durham, NC
-    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Primary Role: APMSaaS agent developer for a new Ruby on Rails monitoring agent.\\
-    Responsibilitie include:\\
-    - Design and implementation of the resource monitoring agent.\\
-    - Daily interaction with testers to address bug reports and new feature requests.\\
-    - Assisting in the development of other monitoring agents. Example: MongoDB.
+      \bf Software Engineer \>\bf IBM Corporation \>\bf July 2013 - July 2014\\ \>\bf Durham, NC
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Designed and developed a new Ruby on Rails agent for the Application Performance Monitoring on SaaS (APMSaaS) product.
+      \item Daily interaction with global test teams to address bug reports and new feature requests.
+      \item Assisted in the development of other monitoring agents (i.e. MongoDB, PHP).
+    \end{itemize}\vspace{-18pt}      % suppress blank line after tabbing
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-      \textbf{Undergraduate Researcher} \>Parasol Lab at Texas A\&M \>June 2010 - May 2013\\ \>College Station, TX
-    \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
-    Conducted research in the area of Sampling Based Motion Planning (SBMP) under the\\
-    guidance of Dr. Nancy Amato.  Areas of interest include Parallel Computing and\\
-    Intelligent Distributed Systems.
+      \bf Undergraduate Researcher \>\bf Parasol Lab at Texas A\&M \>\bf June 2010 - May 2013\\ \>\bf College Station, TX
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Conducted research in the area of Sampling Based Motion Planning (SBMP) under the guidance of Dr. Nancy Amato.
+      \item Worked on multiple research papers and completed senior research thesis as part of my B.S. Computer Engineering degree plan.
+      \item Attended multiple research seminars and a Computing conference in Washington D.C.
+    \end{itemize}\vspace{-18pt}      % suppress blank line after tabbing
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \pagebreak % So we don't cut off the Matlab stuff below
+    %\pagebreak % So we don't cut off the Matlab stuff below
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
-      \textbf{Matlab Tutor} \>Calclab at Texas A\&M \>January 2009 - May 2011\\ \>College Station, TX
-    \end{tabbing}\vspace{-20pt}
-    Helped students in concepts ranging from Single to Multi-Variate Calculus,\\
-    Differential Equations, and Linear Algebra using Matlab and MapleSoft programming.
+      \bf Matlab Tutor \>\bf Texas A\&M University \>\bf January 2009 - May 2011\\ \>\bf College Station, TX
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Directly tutored both individual students and large groups on concepts ranging from Single to Multi-Variate Calculus, Differential Equations, and Linear Algebra using Matlab and MapleSoft programming languages.
+    \end{itemize}\vspace{-18pt}      % suppress blank line after tabbing
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \begin{tabbing}
       \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions          
-      \textbf{SEE Math Camp Counselor}  \>Dept. of Mathematics \> June 2009, 2010, 2011\\ \>College Station, TX
-    \end{tabbing}\vspace{-20pt}
-    Mentored middle school students in their exploration of the world of\\
-    mathematics through group activities and MapleSoft programming at annual\\
-    math-oriented summer camp.
+      \bf SEE Math Camp Counselor \>\bf Texas A\&M University \>\bf June 2009, 2010, 2011\\ \>\bf College Station, TX
+    \end{tabbing}\vspace{-10pt}      % suppress blank line after tabbing
+    \begin{itemize}
+      \item Mentored middle school students in their exploration of the world of mathematics through group activities and MapleSoft programming at annual math-oriented summer camp held by the Texas A\&M Department of Mathematics.
+    \end{itemize}
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
