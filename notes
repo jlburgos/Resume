@@ -1,0 +1,4 @@
+[Notes]
+## Makefile notes
+Official miktex docker image has issues on my WIN 10 machine...
+Managed to workaround my problem following suggestions here: https://github.com/MiKTeX/docker-miktex/issues/13#issuecomment-578124557
