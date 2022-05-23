@@ -3,6 +3,7 @@
 
 # Except these files
 !.gitignore
+!notes
 !makefile
 !README.md
 !res.cls
